@@ -3,7 +3,7 @@
 Code for the numerical experiments of
 
 > D. Gupta and R. Behera, *Quantum Physics-Informed Neural Networks for Solving Integro and Fractional
-> PDEs*, submitted to SIAM Journal on Scientific Computing (2026).
+> PDEs*, arXiv:2606.26865 (2026). https://arxiv.org/abs/2606.26865
 
 It implements the two QPINN formulations of the paper:
 
@@ -148,7 +148,7 @@ Independent runs can be started in parallel, e.g. one process per example or per
 @article{GuptaBehera2026QPINN,
   author  = {Gupta, Deepak and Behera, Ratikanta},
   title   = {Quantum Physics-Informed Neural Networks for Solving Integro and Fractional {PDEs}},
-  journal = {submitted to SIAM Journal on Scientific Computing},
+  journal = {arXiv preprint arXiv:2606.26865},
   year    = {2026}
 }
 ```
