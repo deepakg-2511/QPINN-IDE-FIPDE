@@ -1,0 +1,18 @@
+[project]
+name = "qpinn"
+version = "1.0.0"
+description = "N-QPINN and A-QPINN for nonlinear integro-differential and fractional integro-PDEs"
+authors = [{name = "Deepak Gupta"}, {name = "Ratikanta Behera"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0", "pennylane>=0.40", "numpy>=1.24", "pandas>=1.5", "matplotlib>=3.6"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["qpinn", "qpinn.problems"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning", "ignore::DeprecationWarning"]

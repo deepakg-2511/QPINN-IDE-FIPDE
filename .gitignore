@@ -1,0 +1,13 @@
+# results and scratch runs
+results/
+scratch/
+*.pt
+*.npz
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
